@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/syntax.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/javascripts/respond.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+</head>
+<body>
+<div id="header">
+  <nav>
+    <li class="fork"><a href="https://github.com/berarma">View On GitHub</a></li>
+    <li class="title"><div class="site-name">Bernat Arlandis</div><div class="site-tagline">Computer Engineer & Web Developer</div></li>
+  </nav>
+</div><!-- end header -->
+
+<div class="wrapper">
+
+  <section>
+
+    <nav>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About me</a></li>
+      <li><a href="/work">Work</a></li>
+    </nav>
+
+    <div id="title">
+      <h1>{{ page.title }}</h1>
+    </div>
+
+    {{ content }}
+
+  </section>
+
+</div>
+<!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+</body>
+</html>
