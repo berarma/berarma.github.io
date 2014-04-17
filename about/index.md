@@ -2,7 +2,7 @@
 layout: default
 title: About me
 ---
-I'm working part time as an internal web developer at [JPL TSolució](http://tsolucio.com), and part time building fast and flexible web applications for the world using HTML5, CSS, JavaScript, jQuery and the highly versatile and powerful CakePHP framework.
+I'm working part time as an internal web developer at [JPL TSolució](http://tsolucio.com), and part time building fast and flexible web applications for the world using HTML5, CSS, JavaScript, [jQuery](http://jquery.com) and the highly versatile and powerful [CakePHP](http://cakephp.com) framework.
 
 Contact
 -------
