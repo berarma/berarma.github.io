@@ -2,7 +2,11 @@
 layout: default
 title: About me
 ---
-I'm working part time as an internal web developer at [JPL TSolució](http://tsolucio.com), and part time building fast and flexible web applications for the world using HTML5, CSS, JavaScript, [jQuery](http://jquery.com) and the highly versatile and powerful [CakePHP](http://cakephp.com) framework.
+I'm working part time as an internal web developer at [JPL
+TSolució](http://tsolucio.com), and part time building fast and flexible web
+applications for the world using HTML5, CSS, JavaScript,
+[jQuery](http://jquery.com) and the highly versatile and powerful
+[CakePHP](http://cakephp.com) framework.
 
 Contact
 -------
@@ -49,18 +53,24 @@ Skills
 
     Building sites with some of the best-known Content Management Systems
 
-  * __Responsible / Determined and decisive / Self-reliant / Good team-worker / High personal standards and attention to detail / Emotionally mature and confident / Enthusiastic / Always seeking to learn and grow__
+  * __Responsible / Determined and decisive / Self-reliant / Good team-worker /
+  High personal standards and attention to detail / Emotionally mature and
+  confident / Enthusiastic / Always seeking to learn and grow__
 
 Experience
 ----
 
   * __(2004 - now) Web Developer at JPL TSolució S.L.__
 
-    CRM software and customer services / Integration between different data and application systems / Custom software tools for legacy information systems / Custom web development
+    CRM software and customer services / Integration between different data and
+    application systems / Custom software tools for legacy information systems
+    / Custom web development
 
   * __(2008 - now) Freelance Web Developer__
 
-    Web development for small business and organizations / Adaptative web design and Android web application development / Lexical and dictionary web tools for linguistics
+    Web development for small business and organizations / Adaptative web
+    design and Android web application development / Lexical and dictionary web
+    tools for linguistics
 
   * __(2000 - 2003) Programmer/Analyst at Servicom2000 (Capgemini Valencia)__
 

@@ -11,7 +11,9 @@ I'm in the process of publishing code bits and projects I've worked on over the 
 
   * [Dictionary](http://diccionari.llenguavalenciana.com) and [mobile app](https://play.google.com/store/apps/details?id=com.llenguavalenciana.diccionari)
 
-    The _Diccionari General de la Llengua Valenciana_ is a Valencian dictionary developed for the [_Real Acadèmia de Cultura Valenciana_](http://racv.es), source code and backend not publicly available for now.
+    The _Diccionari General de la Llengua Valenciana_ is a Valencian dictionary
+    developed for the [_Real Acadèmia de Cultura Valenciana_](http://racv.es),
+    source code and backend not publicly available for now.
 
   * WebView Android client
 

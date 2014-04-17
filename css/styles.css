@@ -218,16 +218,16 @@ dt {
   margin-left: 6px;
 }
 #header nav li.title {
-	float: right;
-	text-align: right;
-	color: #ccc;
+  float: right;
+  text-align: right;
+  color: #ccc;
 }
 #header nav li.title .site-name {
-	font-size: 1.3em;
+  font-size: 1.3em;
 }
 #header nav li.title .site-tagline {
-	font-size: 0.9em;
-	color: #aa9;
+  font-size: 0.9em;
+  color: #aa9;
 }
 
 section {
@@ -237,13 +237,13 @@ section {
   margin-top: 70px;
 }
 section nav {
-	margin: 1em 0;
-	list-style: none;
-	text-align: center;
+  margin: 1em 0;
+  list-style: none;
+  text-align: center;
 }
 section nav li {
-	display: inline-block;
-	margin: 0 1em;
+  display: inline-block;
+  margin: 0 1em;
 }
 section #title {
   border: 0;
