@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About me
+title: About
 ---
 I'm working part time as an internal web developer at [JPL
 TSolució](http://tsolucio.com), and part time building fast and flexible web

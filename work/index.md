@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work
+title: Works
 ---
 
 I'm in the process of publishing code bits and projects I've worked on over the years. Some of them here:

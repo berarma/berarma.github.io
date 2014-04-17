@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -7,36 +7,32 @@
 <link rel="stylesheet" href="/css/styles.css">
 <link rel="stylesheet" href="/css/syntax.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
 </head>
 <body>
 <div id="header">
-  <nav>
-    <li class="fork"><a href="https://github.com/berarma">View On GitHub</a></li>
-    <li class="title"><div class="site-name">Bernat Arlandis</div><div class="site-tagline">Computer Engineer & Web Developer</div></li>
-  </nav>
-</div><!-- end header -->
-
-<div class="wrapper">
-
-  <section>
-
-    <nav>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About me</a></li>
-      <li><a href="/work">Work</a></li>
+  <div class="wrapper">
+    <nav class="clearfix">
+      <ul>
+        <li class="title"><div class="site-name">Bernat Arlandis</div><div class="site-tagline">Computer Engineer &amp; Web Developer</div></li>
+        <li class="github"><a href="https://github.com/berarma">View On GitHub</a></li>
+      </ul>
     </nav>
-
+  </div>
+</div>
+<div class="wrapper">
+  <nav id="menu">
+    <ul>
+      <li><a href="/">News</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/work">Works</a></li>
+    </ul>
+  </nav>
+  <section>
     <div id="title">
       <h1>{{ page.title }}</h1>
     </div>
-
     {{ content }}
-
   </section>
-
 </div>
-<!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
 </body>
 </html>

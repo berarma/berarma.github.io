@@ -1,84 +1,54 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,600italic");
-
 body {
   padding: 0px 0 20px 0px;
   margin: 0px;
-  font: 100%/1.6 "Open Sans", sans-serif;
-  color: #f0e7d5;
-  font-weight: normal;
+  font: normal 100%/1.6 "Open Sans", sans-serif;
+  color: #f0e8e0;
   background: #252525;
-  background-attachment: fixed !important;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
-  background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
-  background: -moz-linear-gradient(#2a2a29, #1c1c1c);
-  background: -o-linear-gradient(#2a2a29, #1c1c1c);
-  background: -ms-linear-gradient(#2a2a29, #1c1c1c);
-  background: linear-gradient(#2a2a29, #1c1c1c);
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
-  color: #e8e8e8;
   margin: 0 0 10px;
   font-weight: normal;
 }
-
-p, ul, ol, table, pre, dl {
-  margin: 0 0 20px;
-}
-
 h1, h2, h3 {
   line-height: 1.1;
 }
-
 h3 {
   color: #b6b6b6;
 }
-
+p {
+  margin: 1.5em 0;
+  text-align: justify;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0.5em 0;
+  padding: 0;
+}
 a {
-  color: #ffcc00;
+  color: #ffd050;
   font-weight: 400;
   text-decoration: none;
 }
 a:hover {
-  color: #ffeb9b;
+  color: #fff0a0;
 }
-
 a small {
   font-size: 0.9em;
   color: #666;
   margin-top: -0.6em;
   display: block;
 }
-
-ul {
-  list-style-image: url("../images/bullet.png");
-}
-li {
-  margin: 0.5em 0;
-}
-li p {
-  margin: 0;
-}
-
-.wrapper {
-  max-width: 650px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 20px;
-}
-
-section img {
-  max-width: 100%;
-}
-
 blockquote {
   border-left: 3px solid #ffcc00;
   margin: 0;
   padding: 0 0 0 20px;
   font-style: italic;
 }
-
 code {
   font-family: "Lucida Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color: #efefef;
@@ -91,7 +61,6 @@ code {
   -khtml-border-radius: 2px;
   border-radius: 2px;
 }
-
 pre {
   padding: 8px 15px;
   background: #191919;
@@ -115,36 +84,40 @@ pre code {
   margin: 0;
   padding: 0;
 }
-
 table {
   width: 100%;
   border-collapse: collapse;
 }
-
 th {
   text-align: left;
   padding: 5px 10px;
   border-bottom: 1px solid #434343;
   color: #b6b6b6;
 }
-
 td {
   text-align: left;
   padding: 5px 10px;
   border-bottom: 1px solid #434343;
 }
-
-dt {
-  color: #F0E7D5;
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+  border-collapse: collapse;
 }
-
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  min-height: 0; /* support: IE7 */
+}
+.wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+}
 #header {
-  z-index: 100;
-  left: 0;
-  top: 0px;
-  height: 60px;
-  width: 100%;
-  position: fixed;
   background: url(../images/nav-bg.gif) #353535;
   border-bottom: 4px solid #434343;
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
@@ -153,97 +126,44 @@ dt {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
 #header nav {
-  max-width: 650px;
-  margin: 0 auto;
-  padding: 0 10px;
-  background: blue;
-  margin: 0 auto;
   font-weight: lighter;
 }
-#header nav li {
+#header nav ul {
   list-style: none;
-  display: inline;
-  color: white;
+  margin: 0;
+  padding: 0;
+}
+#header nav li {
   line-height: 1.2;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
 }
-#header nav li a {
-  color: white;
-  border: 1px solid #5d910b;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93bd20), color-stop(100%, #659e10));
-  background: -webkit-linear-gradient(#93bd20, #659e10);
-  background: -moz-linear-gradient(#93bd20, #659e10);
-  background: -o-linear-gradient(#93bd20, #659e10);
-  background: -ms-linear-gradient(#93bd20, #659e10);
-  background: linear-gradient(#93bd20, #659e10);
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -khtml-border-radius: 2px;
-  border-radius: 2px;
-  -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
-  -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
-  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
-  background-color: #93bd20;
-  padding: 10px 12px;
-  margin-top: 6px;
-  line-height: 1;
-  display: inline-block;
-  text-align: center;
-  font-size: 0.9em;
-  font-weight: lighter;
-}
-#header nav li a:hover {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #749619), color-stop(100%, #527f0e));
-  background: -webkit-linear-gradient(#749619, #527f0e);
-  background: -moz-linear-gradient(#749619, #527f0e);
-  background: -o-linear-gradient(#749619, #527f0e);
-  background: -ms-linear-gradient(#749619, #527f0e);
-  background: linear-gradient(#749619, #527f0e);
-  background-color: #659e10;
-  border: 1px solid #527f0e;
-  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
-  -o-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
-}
-#header nav li.fork {
-  float: left;
-  margin-left: 0px;
-}
-#header nav li.downloads {
-  float: right;
+#header nav li.github {
   margin-left: 6px;
+  font-size: 0.8em;
+  text-align: center;
 }
 #header nav li.title {
-  float: right;
-  text-align: right;
-  color: #ccc;
+  text-align: center;
 }
 #header nav li.title .site-name {
   font-size: 1.3em;
 }
 #header nav li.title .site-tagline {
   font-size: 0.9em;
-  color: #aa9;
+  color: #ccb;
 }
-
-section {
-  max-width: 650px;
-  padding: 0 0px 30px 0;
-  margin: 20px 0;
-  margin-top: 70px;
-}
-section nav {
-  margin: 1em 0;
+nav#menu {
   list-style: none;
   text-align: center;
 }
-section nav li {
+nav#menu li {
   display: inline-block;
   margin: 0 1em;
+  text-shadow: 2px 2px 1px black;
+}
+section {
+  padding: 0 0px 30px 0;
+  margin: 0;
 }
 section #title {
   border: 0;
@@ -254,55 +174,83 @@ section #title {
 }
 section #title h1 {
   font-weight: lighter;
-  font-size: 1.9em;
+  font-size: 1.5em;
   text-align: center;
 }
-section #title p {
-  color: #d7cfbe;
-  text-align: center;
+section img {
+  max-width: 100%;
 }
-section #title .credits {
-  font-size: 0.9em;
-  color: #696969;
-  margin-top: -10px;
+section ul {
+  list-style-image: url("../images/bullet.png");
+  padding-left: 2em;
 }
-section #title .credits.left {
-  float: left;
+section li p {
+  margin: 0;
 }
-section #title .credits.right {
-  float: right;
+section li strong {
+  color: #d0e8ff;
 }
-
-.meta {
+#post .meta {
+  text-align: right;
   font-size: 90%;
   color: #bbb;
 }
-
-@media print, screen and (max-width: 720px) {
-  #title .credits {
-    display: block;
-    width: 100%;
+@media print, screen and (min-width: 480px) {
+  #header nav li a {
+    color: white;
+    border: 1px solid #5d910b;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93bd20), color-stop(100%, #659e10));
+    background: -webkit-linear-gradient(#93bd20, #659e10);
+    background: -moz-linear-gradient(#93bd20, #659e10);
+    background: -o-linear-gradient(#93bd20, #659e10);
+    background: -ms-linear-gradient(#93bd20, #659e10);
+    background: linear-gradient(#93bd20, #659e10);
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
+    -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
+    background-color: #93bd20;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height: 1;
+    display: inline-block;
     text-align: center;
+    font-size: 0.9em;
+    font-weight: lighter;
   }
-  #title .credits .left {
-    float: none;
-    display: block;
+  #header nav li a:hover {
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #749619), color-stop(100%, #527f0e));
+    background: -webkit-linear-gradient(#749619, #527f0e);
+    background: -moz-linear-gradient(#749619, #527f0e);
+    background: -o-linear-gradient(#749619, #527f0e);
+    background: -ms-linear-gradient(#749619, #527f0e);
+    background: linear-gradient(#749619, #527f0e);
+    background-color: #659e10;
+    border: 1px solid #527f0e;
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
+    -o-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   }
-  #title .credits .right {
-    float: none;
-    display: block;
+  #header nav li.github {
+    float: left;
+    margin-left: 0px;
   }
-}
-@media print, screen and (max-width: 480px) {
-  #header {
-    margin-top: -20px;
+  #header nav li.github {
+    float: left;
+    font-size: 1em;
   }
-
-  section {
-    margin-top: 40px;
+  #header nav li.title {
+    float: right;
+    text-align: right;
   }
-
-  nav {
-    display: none;
+  section #title h1 {
+    font-size: 1.9em;
   }
 }

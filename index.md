@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Home
+title: News
 ---
-<ul class="posts">
+<dl class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <dt><span>{{ post.date | date_to_string }}</dt><dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
   {% endfor %}
-</ul>
+</dl>
