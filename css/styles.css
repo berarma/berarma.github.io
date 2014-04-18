@@ -196,6 +196,13 @@ section li strong {
   font-size: 90%;
   color: #bbb;
 }
+dl.posts dt {
+  float: left;
+  width: 8em;
+}
+dl.posts dd {
+  margin-left: 8em;
+}
 @media print, screen and (min-width: 480px) {
   #header nav li a {
     color: white;
