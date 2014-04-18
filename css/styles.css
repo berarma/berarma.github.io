@@ -182,6 +182,7 @@ section img {
 }
 section ul {
   list-style-image: url("../images/bullet.png");
+  margin: 1.5em 0;
   padding-left: 2em;
 }
 section li p {
