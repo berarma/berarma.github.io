@@ -190,7 +190,7 @@ section li p {
 section li strong {
   color: #d0e8ff;
 }
-#post .meta {
+.meta {
   text-align: right;
   font-size: 90%;
   color: #bbb;
