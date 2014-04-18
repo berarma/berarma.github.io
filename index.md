@@ -1,9 +1,18 @@
 ---
 layout: default
-title: News
+title: Home
 ---
+
+I'm a Computer Engineer and Web Developer living in Valencia (Spain). This is
+my personal site to share my professional interest in Software and Computers. I
+hope it has something useful for you, at the very least you can learn something
+about me and my work.  :-) Thanks for reading.
+
+## Latest posts:
+
 <dl class="posts">
   {% for post in site.posts %}
-    <dt><span>{{ post.date | date_to_string }}</dt><dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
+    <dt><span>{{ post.date | date_to_string }}</dt>
+    <dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
   {% endfor %}
 </dl>
