@@ -15,4 +15,4 @@ Currently, it only supports authorizations requests, the most common form of
 payment anyway, but it could be easily extended to other transactions.
 Contributions welcomed.
 
-Check it out at GitHub: [https://github.com/berarma/cakephp-sermepa/](cakephp-sermepa)
+Check it out at GitHub: [cakephp-sermepa](https://github.com/berarma/cakephp-sermepa/)
