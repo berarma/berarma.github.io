@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jQuery-freeTheCookies published
+title: jQuery-freeTheCookies released
 ---
 
 Recently some countries are requiring websites to warn their users about the

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sermepa/Redsýs TPV Plugin for CakePHP published
+title: Sermepa/Redsýs TPV Plugin for CakePHP released
 ---
 
 Sermepa, now Redsýs, is the company operating the most used TPV in Spain,
