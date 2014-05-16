@@ -6,7 +6,7 @@ title: Home
 I'm a Computer Engineer and Web Developer living in Valencia (Spain). This is
 my personal site to share my professional interest in Software and Computers. I
 hope it has something useful for you, at the very least you will know something
-more about me and my work.  :-) Thanks for reading.
+more about me and my work. Thanks for reading. :-)
 
 ## Latest posts:
 
