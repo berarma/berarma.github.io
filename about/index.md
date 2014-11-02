@@ -19,7 +19,7 @@ Contact
   * <http://bernatarlandis.com>
   * <https://github.com/berarma>
 
-Please, use my email address in GitHub for contact.
+Please, use my email address at GitHub for contact.
 
 Skills
 ------
