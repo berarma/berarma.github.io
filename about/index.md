@@ -1,17 +1,17 @@
 ---
 layout: default
 title: About
-date: 2014-04-18 00:00
+date: 2014-11-02 00:00
 ---
 
 My name is Bernat Arlandis and I live in Valencia (Spain). I'm a Computer
-Engineer and Web Developer with a passion for computers and open source.
+Engineer and Web Developer very enthusiastic about computers and open source.
 
-I'm currently working as a web developer at [JPL
-TSolució](http://tsolucio.com), and also as a freelance building fast and
-flexible web applications with HTML5, CSS2/3, JavaScript,
-[jQuery](http://jquery.com) and the highly versatile and powerful
-[CakePHP](http://cakephp.com) framework.
+I'm currently working as a web developer at [JPL TSolució](http://tsolucio.com)
+and as freelance developing mobile apps for Android and PhoneGap, and also
+responsive and SEO-friendly web sites and applications. Although not my main
+work, I can do, and usually do, system administration tasks on GNU/Linux systems
+since I spend most of my life time working on them.
 
 Contact
 -------
@@ -26,23 +26,23 @@ Skills
 
   * __PHP, JavaScript, Java, C++, C__
 
-    Experienced programmer with large expertise on OOP, software patterns and
-    adept to KISS and DRY principles on every programming language.
+    Experienced programmer with good expertise on OOP, software patterns and
+    adept to KISS and DRY principles on every programming language I use.
 
-  * __CakePHP__
+  * __Javascript/jQuery/jQueryUI__
 
-    Rapid Application Development a la Ruby on Rails. Flexibility and
-    maintainability of projects by means of using MVC, convention over
-    configuration, fat models, skinny controllers and tests.
+    Advanced programming for highly dynamic web sites and applications.
 
   * __HTML/XHTML/CSS__
 
     Responsive Web design, highly dynamical sites with animations and
     effects, accesibility and standards compliance.
 
-  * __jQuery/jQueryUI__
+  * __CakePHP__
 
-    Advanced programming for highly dynamic web sites and applications, webapps.
+    Willing for Rapid Application Development a la Ruby on Rails. Flexibility
+    and maintainability of projects by means of using MVC, convention over
+    configuration, fat models, skinny controllers and tests.
 
   * __MySQL, PostgreSQL, JDBC__
 
@@ -50,24 +50,31 @@ Skills
 
   * __Git, Mercurial, Subversion__
 
-    Ready to work with the well-known Source Control Management Systems.
+    I'm working with the most well-known Source Control Management Systems.
 
-  * __Debian, Ubuntu__
+  * __Mobile app development__
 
-    Deep knowledge of GNU/Linux systems, server and desktop administration and
-    development.
-
-  * __Android development__
-
-    Working on client interfaces for publishable/marketable Web applications (webapps).
+    Development of multi-platform mobile apps with PhoneGap. Ocassionally
+    developing and maintaining Android apps.
 
   * __XML, REST, SOAP, SAP-RFC, JSON, YAML__
 
     Expertise on inter-application communication technologies.
 
+  * __Composer, requirejs, PHPUnit, npm, ...__
+
+    Trying to get the work done in the best way possible, always looking for new
+    useful additions to my programming toolset.
+
+  * __Debian GNU/Linux__
+
+    Very good knowledge of GNU/Linux systems, server and desktop
+    administration, as well as using them for development. I'm a Debian user
+    for years at home and at work.
+
   * __Drupal, Jekyll, DokuWiki, Wordpress, Magento, Prestashop__
 
-    Building sites with some of the most used Content Management Systems.
+    I've build some sites using some of the most used Content Management Systems.
 
   * __Responsible / Determined and decisive / Self-reliant / Good team-worker /
   High personal standards and attention to detail / Emotionally mature and
@@ -84,9 +91,8 @@ Experience
 
   * __(2008 - now) Freelance Web Developer__
 
-    Web development for small business and organizations / Adaptative web
-    design and Android web application development / Lexical and dictionary web
-    tools for linguistics.
+    Web site development for small business and organizations / Mobile app
+    development with PhoneGap / Android application development.
 
   * __(2000 - 2003) Programmer/Analyst at Servicom2000 (Capgemini Valencia)__
 
