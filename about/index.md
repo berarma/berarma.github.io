@@ -1,17 +1,18 @@
 ---
 layout: default
 title: About
-date: 2014-11-02 00:00
+date: 2014-12-13 00:00
 ---
 
 My name is Bernat Arlandis and I live in Valencia (Spain). I'm a Computer
 Engineer and Web Developer very enthusiastic about computers and open source.
 
-I'm currently working as a web developer at [JPL TSolució](http://tsolucio.com)
-and as freelance developing mobile apps for Android and PhoneGap, and also
-responsive and SEO-friendly web sites and applications. Although not my main
-work, I can do, and usually do, system administration tasks on GNU/Linux systems
-since I spend most of my life time working on them.
+I'm currently working as the main web developer at
+[Roomsday](http://roomsday.com), an online hotel booking company, and as
+freelance I've developed mobile apps for Android, PhoneGap, and also responsive
+and SEO-friendly web sites and applications. Although not my main work, I
+usually do system administration tasks on GNU/Linux systems since I base all my
+work on them and it's sometimes part of my duty.
 
 Contact
 -------
@@ -35,8 +36,9 @@ Skills
 
   * __HTML/XHTML/CSS__
 
-    Responsive Web design, highly dynamical sites with animations and
-    effects, accesibility and standards compliance.
+    Responsive Web design, highly dynamical sites with animations and effects,
+    accesibility and standards compliance. Expertise on CSS frameworks like
+    Bootstrap and Foundation.
 
   * __CakePHP__
 
@@ -83,7 +85,11 @@ Skills
 Experience
 ----
 
-  * __(2004 - now) Web Developer at JPL TSolució S.L.__
+  * __(2014 - now ) Main web developer at Roomsday S.L.__
+
+    Analyst, programmer, backend and frontend..
+
+  * __(2004 - 2014) Web and Application Developer at JPL TSolució S.L.__
 
     CRM software and customer services / Integration between different data and
     application systems / Custom software tools for legacy information systems
@@ -92,7 +98,7 @@ Experience
   * __(2008 - now) Freelance Web Developer__
 
     Web site development for small business and organizations / Mobile app
-    development with PhoneGap / Android application development.
+    development with PhoneGap and iOS / Android application development.
 
   * __(2000 - 2003) Programmer/Analyst at Servicom2000 (Capgemini Valencia)__
 
