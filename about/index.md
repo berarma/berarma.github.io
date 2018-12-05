@@ -1,18 +1,16 @@
 ---
 layout: default
 title: About
-date: 2014-12-13 00:00
+date: 2018-12-05 00:00
 ---
 
 My name is Bernat Arlandis and I live in Valencia (Spain). I'm a Computer
-Engineer and Web Developer very enthusiastic about computers and open source.
+Engineer and Web Developer, very enthusiastic about computers and open source.
 
-I'm currently working as the main web developer at
-[Roomsday](http://roomsday.com), an online hotel booking company, and as
-freelance I've developed mobile apps for Android, PhoneGap, and also responsive
-and SEO-friendly web sites and applications. Although not my main work, I
-usually do system administration tasks on GNU/Linux systems since I base all my
-work on them and it's sometimes part of my duty.
+I'm currently working as a full-stack web developer at
+[Roomsday](http://roomsday.com), an online hotel booking company. In the past,
+as a freelancer I've built other responsive and SEO-friendly web sites and also
+mobile apps for Android and PhoneGap.
 
 Contact
 -------
@@ -28,7 +26,7 @@ Skills
   * __PHP, JavaScript, Java, C++, C__
 
     Experienced programmer with good expertise on OOP, software patterns and
-    adept to KISS and DRY principles on every programming language I use.
+    adept to KISS and DRY principles.
 
   * __Javascript/jQuery/jQueryUI__
 
@@ -42,9 +40,7 @@ Skills
 
   * __CakePHP__
 
-    Willing for Rapid Application Development a la Ruby on Rails. Flexibility
-    and maintainability of projects by means of using MVC, convention over
-    configuration, fat models, skinny controllers and tests.
+    Rapid Application Development using PHP frameworks.
 
   * __MySQL, PostgreSQL, JDBC__
 
@@ -52,27 +48,26 @@ Skills
 
   * __Git, Mercurial, Subversion__
 
-    I'm working with the most well-known Source Control Management Systems.
+    As of today all my work is done with Git, but I've also use Mercurial and
+    Subversion.
 
-  * __Mobile app development__
+  * __Mobile App development__
 
-    Development of multi-platform mobile apps with PhoneGap. Ocassionally
-    developing and maintaining Android apps.
+    I've done some development of Android Apps and multi-platform mobile Apps with PhoneGap.
 
-  * __XML, REST, SOAP, SAP-RFC, JSON, YAML__
+  * __GraphQL, XML, REST, SOAP, SAP-RFC, JSON, YAML__
 
     Expertise on inter-application communication technologies.
 
-  * __Composer, requirejs, PHPUnit, npm, ...__
+  * __Composer, PHPUnit, npm, requirejs,...__
 
-    Trying to get the work done in the best way possible, always looking for new
-    useful additions to my programming toolset.
+    I use several development tools and continously learning new ones.
 
   * __Debian GNU/Linux__
 
     Very good knowledge of GNU/Linux systems, server and desktop
-    administration, as well as using them for development. I'm a Debian user
-    for years at home and at work.
+    administration, as well as for development. I'm a Debian user for years at
+    home and at work.
 
   * __Drupal, Jekyll, DokuWiki, Wordpress, Magento, Prestashop__
 
@@ -85,9 +80,9 @@ Skills
 Experience
 ----
 
-  * __(2014 - now ) Main web developer at Roomsday S.L.__
+  * __(2014 - now ) Full-stack web developer at Roomsday.__
 
-    Analyst, programmer, backend and frontend..
+    Analyst, programmer, backend and frontend, systems administration,...
 
   * __(2004 - 2014) Web and Application Developer at JPL TSolució S.L.__
 
