@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Redsýs plugin for CakePHP
+title: Updated Redsýs plugin for CakePHP
 ---
 
 Redsýs is the the most used POST service in Spain, allowing card payments for
