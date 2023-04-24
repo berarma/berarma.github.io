@@ -7,11 +7,6 @@ date: 2018-12-05 00:00
 My name is Bernat Arlandis and I live in Valencia (Spain). I'm a Computer
 Engineer and Web Developer, very enthusiastic about computers and open source.
 
-I'm currently working as a full-stack web developer at
-[Roomsday](http://roomsday.com), an online hotel booking company. In the past,
-as a freelancer I've built other responsive and SEO-friendly web sites and also
-mobile apps for Android and PhoneGap.
-
 Contact
 -------
 
@@ -80,7 +75,7 @@ Skills
 Experience
 ----
 
-  * __(2014 - now ) Full-stack web developer at Roomsday.__
+  * __(2014 - 2020 ) Full-stack web developer at Roomsday.__
 
     Analyst, programmer, backend and frontend, systems administration,...
 
